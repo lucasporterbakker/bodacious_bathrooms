@@ -1,0 +1,12 @@
+<%= simple_form_for (@bathroom) do |f| %>
+
+<%= f.input :location %>
+<%= f.input :gender, as: :radio_buttons, collection: ["male", "female", "unisex"] %>
+<%= f.input :bidet%>
+<%= f.input :size, as: :radio_buttons, collection: ["queen", "king"] %>
+<%= f.input :heated%>
+<%= f.input :squatter%>
+<%= f.input :tp%>
+<%= f.submit %>
+
+<% end %>

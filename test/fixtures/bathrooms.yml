@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  bidet: false
+  gender: MyString
+  size: MyString
+  heated: false
+
+two:
+  location: MyString
+  bidet: false
+  gender: MyString
+  size: MyString
+  heated: false

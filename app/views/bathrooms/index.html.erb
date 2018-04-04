@@ -1,0 +1,23 @@
+<h1>Take a S@*$ Here</h1>
+
+<h2>Divine Dumps</h2>
+
+
+<ul>
+  <% @bathrooms.each do |bathroom| %>
+
+  <li>
+    <%= link_to bathroom.location, bathroom_path(bathroom) %>
+
+    <p> <%= bathroom.size %> </p>
+    <p> <%= bathroom.gender %> </p>
+    <p> <%= bathroom.bidet %> </p>
+
+  </li>
+
+
+
+  <% end %>
+</ul>
+
+<%= link_to "Add a bathroom", new_bathroom_path %>

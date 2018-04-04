@@ -1,0 +1,12 @@
+
+
+
+<p> <%= @bathroom.location %></p>
+<p> Size:<%= @bathroom.size %> </p>
+<p> <%= @bathroom.gender %> </p>
+<p> Has Bidet: <%= @bathroom.bidet %> </p>
+<p> Heated Seat: <%= @bathroom.heated %> </p>
+<p> Squatter Status: <%= @bathroom.squatter %> </p>
+<p> Toilet Paper Status: <%= @bathroom.tp %> </p>
+
+<%= link_to "Leave Review", new_bathroom_review_path(@bathroom)%>
